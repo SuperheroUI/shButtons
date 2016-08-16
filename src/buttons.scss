@@ -26,7 +26,8 @@
         box-shadow: inset 0 1px 1px transparent, 0 0 3px $color-box-background2;
     }
 
-    &.disabled {
+    &.disabled,
+    &:disabled {
         cursor: not-allowed;
         opacity: .65;
     }
