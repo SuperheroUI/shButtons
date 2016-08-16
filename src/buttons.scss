@@ -1,0 +1,103 @@
+@import '../node_modules/sh-core/src/base';
+
+.btn {
+    font-size: 16px;
+    padding: 8px 35px;
+    color: $color-font;
+    border-radius: 300px;
+
+    transition: background $transition-fast;
+
+    &:active,
+    &active.focus,
+    &active:focus,
+    &.btn.focus,
+    &:active.focus,
+    &:active:focus,
+    &:focus {
+        color: $color-font;
+        outline: none;
+        outline-offset: 0;
+        box-shadow: none;
+    }
+
+    &:focus {
+        -webkit-box-shadow: inset 0 1px 1px transparent, 0 0 3px $color-box-background2;
+        box-shadow: inset 0 1px 1px transparent, 0 0 3px $color-box-background2;
+    }
+
+    &.disabled,
+    &:disabled {
+        cursor: not-allowed;
+        opacity: .65;
+    }
+
+    &:hover {
+        color: $color-font;
+    }
+
+    &.btn-sm {
+        padding: 3px 25px;
+    }
+
+    &.btn-primary {
+        background: rgba($color-primary, .8);
+        border-color: rgba($color-primary, 0);
+
+        &:hover {
+            background: rgba($color-primary, 1);
+            border-color: rgba($color-primary, 0);
+        }
+
+        &.disabled,
+        &:disabled {
+            background: rgba($color-primary, .2);
+        }
+    }
+
+    &.btn-default {
+        background: rgba($color-transparent, .15);
+        border-color: rgba($color-transparent, 0);
+
+        &:hover {
+            background: rgba($color-transparent, .3);
+            border-color: rgba($color-transparent, 0);
+        }
+
+        &.disabled,
+        &:disabled {
+            background: rgba($color-transparent, .2);
+        }
+    }
+
+    &.btn-error {
+        background: darken($color-error, .8);
+        border-color: rgba($color-error, 0);
+
+        &:hover {
+            background: rgba($color-error, 1);
+            border-color: rgba($color-error, 0);
+        }
+
+        &.disabled,
+        &:disabled {
+            background: rgba($color-error, .2);
+        }
+    }
+
+    &.btn-neural {
+        background: rgba($color-neural, .8);
+        border-color: rgba($color-neural, 0);
+
+        &:hover {
+            background: $color-neural;
+            border-color: rgba($color-neural, 0);
+        }
+
+        &.disabled,
+        &:disabled {
+            background: rgba($color-neural, .2);
+        }
+    }
+
+}
