@@ -1,11 +1,11 @@
 {
   "name": "sh-buttons",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Buttons for SuperHeroUI",
   "main": "index.js",
   "scripts": {
     "clean": "rm -r ./bin",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No test on SCSS files.\" && exit 1",
     "dev": "node-sass --output-style compressed src/main.scss bin/main.css & node-sass --output-style compressed -w src/main.scss bin/main.css",
     "build": "./node_modules/.bin/node-sass --output-style compressed src/main.scss bin/main.css"
   },
