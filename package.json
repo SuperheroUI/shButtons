@@ -1,6 +1,6 @@
 {
   "name": "sh-buttons",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Buttons for SuperHeroUI",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/SuperheroUI/shButtons#readme",
   "devDependencies": {
-    "sh-core": "0.2.1",
+    "sh-core": "0.2.0",
     "node-sass": "^3.8.0",
     "nodemon": "^1.10.0"
   }
