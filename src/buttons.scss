@@ -11,7 +11,7 @@
     &:active,
     &active.focus,
     &active:focus,
-    &.btn.focus,
+    &.focus,
     &:active.focus,
     &:active:focus,
     &:focus {
@@ -36,7 +36,7 @@
         color: $color-font;
     }
 
-    &.btn-sm {
+    &.sh-btn-sm {
         padding: 3px 25px;
     }
 
