@@ -1,6 +1,6 @@
 @import '../node_modules/sh-core/src/base';
 
-.btn {
+.sh-btn {
     font-size: 18px;
     padding: 11px 45px;
     color: $color-font;
@@ -11,7 +11,7 @@
     &:active,
     &active.focus,
     &active:focus,
-    &.btn.focus,
+    &.focus,
     &:active.focus,
     &:active:focus,
     &:focus {
@@ -36,11 +36,11 @@
         color: $color-font;
     }
 
-    &.btn-sm {
+    &.sh-btn-sm {
         padding: 3px 25px;
     }
 
-    &.btn-primary {
+    &.sh-btn-primary {
         background: rgba($color-primary, .8);
         border-color: rgba($color-primary, 0);
 
@@ -55,7 +55,7 @@
         }
     }
 
-    &.btn-default {
+    &.sh-btn-default {
         background: rgba($color-transparent, .15);
         border-color: rgba($color-transparent, 0);
 
@@ -70,7 +70,7 @@
         }
     }
 
-    &.btn-error {
+    &.sh-btn-error {
         background: darken($color-error, .8);
         border-color: rgba($color-error, 0);
 
@@ -85,7 +85,7 @@
         }
     }
 
-    &.btn-neural {
+    &.sh-btn-neural {
         background: rgba($color-neural, .8);
         border-color: rgba($color-neural, 0);
 
